@@ -20,8 +20,8 @@ const Body = ({ onUpdateInfo, onChangeFooterColor, onChangeBackgroundColor }) =>
         onChangeText={setAvatar}
       />
       <Button title="CẬP NHẬT THÔNG TIN" onPress={() => onUpdateInfo(name, avatar)} color="blue" />
-      
-      <Button title="ĐỔI MÀU BACKGROUND" onPress={onChangeBackgroundColor} color="green" />  
+      <Button title="ĐỔI MÀU FOOTER" onPress={onChangeFooterColor} color="red" />
+      {/* <Button title="ĐỔI MÀU BACKGROUND" onPress={onChangeBackgroundColor} color="green" />   */}
     </View>
   );
 };
