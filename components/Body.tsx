@@ -21,7 +21,6 @@ const Body = ({ onUpdateInfo, onChangeFooterColor, onChangeBackgroundColor }) =>
       />
       <Button title="CẬP NHẬT THÔNG TIN" onPress={() => onUpdateInfo(name, avatar)} color="blue" />
       <Button title="ĐỔI MÀU FOOTER" onPress={onChangeFooterColor} color="red" />
-      {/* <Button title="ĐỔI MÀU BACKGROUND" onPress={onChangeBackgroundColor} color="green" />   */}
     </View>
   );
 };
